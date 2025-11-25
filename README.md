@@ -3,33 +3,26 @@
 A simple, clean, and responsive React application for tracking income, expenses, and generating financial reports.
 Built with React, Tailwind CSS, lucide-react icons, and persistent local storage.
 
-🚀 Features
+# 🚀 Features
 ✅ Track Transactions
-
 Add income and expense entries
-
 Categorize transactions
-
 Validation for all fields
-
 Persistent data stored locally
 
-📈 Reports & Insights
+
+# 📈 Reports & Insights
 
 Total income, expenses, and net balance
-
 Category-based breakdowns
-
 Summary statistics (average transaction, savings rate, etc.)
 
-📑 Export Data
 
-Export all entries as a JSON file
+#📑 Export Data
+-Export all entries as a JSON file
 
-📱 Fully Responsive
-
+#📱 Fully Responsive
 Mobile-friendly navigation
-
 Clean modern UI built with Tailwind CSS
 
 🖥️ Tech Stack
@@ -40,43 +33,28 @@ lucide-react	Icons
 Local Storage API	Saving and loading user data
 📦 Installation & Setup
 
-Clone the repository:
+#Clone the repository:
 
 git clone https://github.com/yourusername/budget-tracker.git
 cd budget-tracker
-
-
 Install dependencies:
-
 npm install
-
-
 Start the development server:
-
 npm run dev
 
-
-Build for production:
-
+#Build for production:
 npm run build
 
-🧩 How It Works
+#🧩 How It Works
 ➤ Adding Transactions
-
 Each entry contains:
 
 Type (income or expense)
-
 Category
-
 Amount
-
 Description
-
 Date
-
 Entries are saved using:
-
 window.storage.get('budget-entries');
 window.storage.set('budget-entries');
 
@@ -90,7 +68,7 @@ Overview of income, expenses, and balance
 
 Feature summary
 
-💼 Budget Tracker
+#💼 Budget Tracker
 
 Add new transactions
 
@@ -128,14 +106,9 @@ Cloud sync
 This project is open-source and free to use.
 Add a license file (MIT recommended) if you want others to reuse your code.
 
-🤝 Contributing
+'🤝 Contributing
 
 Pull requests and suggestions are always welcome!
-
-If you want, I can also add:
-✔ Badges (version, license, tech stack)
-✔ Screenshots for your GitHub page
-✔ A project logo
 ✔ A GitHub repo description
 
 Just tell me!
