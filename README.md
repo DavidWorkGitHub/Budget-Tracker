@@ -18,14 +18,14 @@ Category-based breakdowns
 Summary statistics (average transaction, savings rate, etc.)
 
 
-#📑 Export Data
+# 📑 Export Data
 -Export all entries as a JSON file
 
-#📱 Fully Responsive
+# 📱 Fully Responsive
 Mobile-friendly navigation
 Clean modern UI built with Tailwind CSS
 
-🖥️ Tech Stack
+# 🖥️ Tech Stack
 Technology	Purpose
 React	UI framework
 Tailwind CSS	Styling
@@ -33,7 +33,7 @@ lucide-react	Icons
 Local Storage API	Saving and loading user data
 📦 Installation & Setup
 
-#Clone the repository:
+# Clone the repository:
 
 git clone https://github.com/yourusername/budget-tracker.git
 cd budget-tracker
@@ -42,10 +42,10 @@ npm install
 Start the development server:
 npm run dev
 
-#Build for production:
+# Build for production:
 npm run build
 
-#🧩 How It Works
+# 🧩 How It Works
 ➤ Adding Transactions
 Each entry contains:
 
@@ -58,7 +58,6 @@ Entries are saved using:
 window.storage.get('budget-entries');
 window.storage.set('budget-entries');
 
-
 This allows the app to restore your data even after closing the browser.
 
 📊 App Pages
@@ -68,7 +67,7 @@ Overview of income, expenses, and balance
 
 Feature summary
 
-#💼 Budget Tracker
+# 💼 Budget Tracker
 
 Add new transactions
 
@@ -76,39 +75,30 @@ View a table of recent entries
 
 Delete transactions
 
-📄 Reports
+# 📄 Reports
 
 Category totals
-
 Net values
-
 Data export
-
 Summary statistics
 
-📁 Project Structure
+# 📁 Project Structure
 src/
 │── BudgetTracker.jsx     # Main component
 │── ...other files
 
-✨ Future Improvements (Optional Ideas)
+# ✨ Future Improvements (Optional Ideas)
 
 Graphs / charts for category spending
-
 Recurring transactions
-
 Multi-user support
-
 Cloud sync
 
-📜 License
+# 📜 License
 
 This project is open-source and free to use.
 Add a license file (MIT recommended) if you want others to reuse your code.
 
-'🤝 Contributing
+# 🤝 Contributing
 
 Pull requests and suggestions are always welcome!
-✔ A GitHub repo description
-
-Just tell me!
